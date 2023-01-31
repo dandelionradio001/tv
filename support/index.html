@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <title>在线电视节目列表 网络电台</title>
+</head>
+
+<body>
+    <div class="banxin">
+        <div class="app_logo center-block margin-bottom60" style="padding-top: 40px">
+            <img src="images/icon_120x120.png" width="80" height="80" alt="" />
+        </div>
+        <div class="desp">
+            <p style="font-size: 20px;padding-bottom: 10px;">应用介绍</p>
+            <div class="dsp margin-bottom60">
+                <section>
+                    “在线电视节目列表 网络电台”提供海内外精彩电视内容以及中国各主要城市广播电台。
+                </section>
+            </div>
+        </div>
+        <div>
+            <p style="font-size: 20px;padding-bottom: 10px;">应用截图</p>
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen1.png">
+                                </div>
+                            </td>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen2.png">
+                                </div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="wxtip" id="JweixinTip">
+        <span class="wxtip-icon"></span>
+        <p class="wxtip-txt">Click on the upper right corner
+            <br>Choose to open in other browsers</p>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://www.bmob.cn/themes/2016-3/static/js/frontend/websitebase.js"></script>
+    <script type="text/javascript">
+    function fun(a) {
+        a.onclick = function(e) {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                window.event ? window.event.returnValue = false : e.preventDefault();
+                document.getElementById('JweixinTip').style.display = 'block';
+                document.getElementById('JweixinTip').onclick = function() {
+                    this.style.display = 'none';
+                }
+                return true;
+            } else {
+
+            }
+        }
+    }
+    if (document.getElementById("wx_btn1")) {
+        fun(document.getElementById("wx_btn1"));
+    }
+    if (document.getElementById("wx_btn2")) {
+        fun(document.getElementById("wx_btn2"));
+    }
+
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8bd127f03a0fb66b134fe06b676f0dfc' type='text/javascript'%3E%3C/script%3E"));
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb38f059c148ad1aa4d0fc03a170a5561' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</body>
+
+</html>
