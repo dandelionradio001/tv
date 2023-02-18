@@ -1,12 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "update": {
     "version": "1.0.0",
     "message": "修复了一些问题"
   },
-  "review": 1,
+  "review": 0,
   "review_live_flag": "TEST",
-  "radio_review": 1,
+  "radio_review": 0,
   "appLovin": {
     "open": 0,
     "key": "moTickBwmUx6KT2Hl0mHHHVg4CqyJQiifLsQAwD3qWdvTXtTLHJm0hScoDhSXISuAQ5CCan0rCm7RBcKcMkT_C",
@@ -15,6 +15,7 @@
     "interstitial": "517d39d5ac464be0",
     "reward": "b6c01c3617b2c292"
   },
+  "movie_url": "https://dandelionradio001.github.io/tv/movie.json",
   "tvflag": "tv",
   "regions": [
     {
@@ -44,12 +45,16 @@
     "百事通IPTV",
     "江西移动IPTV"
   ],
+  "excluded_channel_texts": ["下载安装新版"],
   "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");console.log(elements[0]);elements[0].click();",
   "hack_way_enabled": 1,
-  "home_url": "https://player.ggiptv.com/iptva.php?app=136",
+  "home_url": "https://player.ggiptv.com/iptva.php?app=143",
   "programme_url": "https://player.ggiptv.com/iptv.php",
   "base_url": "https://player.ggiptv.com/",
-  "user_agent": "Mozilla/5.0 (Linux; Android [version.release]; [model] Build/[id]; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045714 Mobile Safari/537.36 MicroMessengeriptv/1.3.6 VideoPlayer Html5Plus/1.0",
+  "user_agent": "Mozilla/5.0 (Linux; Android [version.release]; [model] Build/[id]; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77 Mobile Safari/537.36 MicroMessengeriptv/1.4.3 VideoPlayer Html5Plus/1.00",
+  "ios_user_agent": "Mozilla/5.0 (Linux; Android 10; BLA-AL00 Build/HUAWEIBLA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77 Mobile Safari/537.36 MicroMessengeriptv/1.4.3 VideoPlayer Html5Plus/1.00",
+  "acceptLanguageHeader": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+  "webView_headers": {"accept-language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7", "cookie": "version=1.4.3"},
   "replaced_http_enabled": 1,
   "replace_http_from": "https://",
   "replace_http_to": "http://",
@@ -686,6 +691,97 @@
     {
       "categoryName": "其他台",
       "categoryId": "15"
+    }
+  ],
+  "explores": [
+    {
+      "title": "首页",
+      "items": [
+        {
+          "title": "编辑推荐",
+          "href": "https://10why.net/"
+        }
+      ]
+    },
+    {
+      "title": "科学世界",
+      "items": [
+        {
+          "title": "数理化篇",
+          "href": "https://10why.net/category/maths/"
+        },
+        {
+          "title": "科技篇",
+          "href": "https://10why.net/category/tech/"
+        },
+        {
+          "title": "天文篇",
+          "href": "https://10why.net/category/astronomy/"
+        },
+        {
+          "title": "地理篇",
+          "href": "https://10why.net/category/geography/"
+        }
+      ]
+    },
+    {
+      "title": "生物王国",
+      "items": [
+        {
+          "title": "人体篇",
+          "href": "https://10why.net/category/human/"
+        },
+        {
+          "title": "动物篇",
+          "href": "https://10why.net/category/animal/"
+        },
+        {
+          "title": "植物篇",
+          "href": "https://10why.net/category/plant/"
+        },
+        {
+          "title": "健康篇",
+          "href": "https://10why.net/category/healthy/"
+        }
+      ]
+    },
+    {
+      "title": "国际博览",
+      "items": [
+        {
+          "title": "交通篇",
+          "href": "https://10why.net/category/traffic/"
+        },
+        {
+          "title": "国家篇",
+          "href": "https://10why.net/category/country/"
+        },
+        {
+          "title": "军事篇",
+          "href": "https://10why.net/category/military/"
+        },
+        {
+          "title": "体育篇",
+          "href": "https://10why.net/category/sport/"
+        }
+      ]
+    },
+    {
+      "title": "人文广场",
+      "items": [
+        {
+          "title": "文化篇",
+          "href": "https://10why.net/category/culture/"
+        },
+        {
+          "title": "艺术篇",
+          "href": "https://10why.net/category/art/"
+        },
+        {
+          "title": "历史篇",
+          "href": "https://10why.net/category/history/"
+        }
+      ]
     }
   ]
 }
