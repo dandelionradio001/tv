@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "update": {
     "version": "1.0.0",
     "message": "修复了一些问题"
@@ -8,12 +8,12 @@
   "review_live_flag": "TEST",
   "radio_review": 0,
   "appLovin": {
-    "open": 0,
+    "open": 1,
     "key": "moTickBwmUx6KT2Hl0mHHHVg4CqyJQiifLsQAwD3qWdvTXtTLHJm0hScoDhSXISuAQ5CCan0rCm7RBcKcMkT_C",
-    "home": "b57949cf8e76d71f",
-    "radio": "ae5538beb9a0f726",
-    "interstitial": "517d39d5ac464be0",
-    "reward": "b6c01c3617b2c292"
+    "home": "5e63b6a507283fd8",
+    "radio": "2fb96a7cecbea054",
+    "interstitial": "6fe1580fe1315fc5",
+    "reward": "523382bb7a572382"
   },
   "movie_url": "https://dandelionradio001.github.io/tv/movie.json",
   "tvflag": "tv",
