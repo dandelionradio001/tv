@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "update": {
     "version": "1.1.0",
     "message": "修复了一些问题"
@@ -792,11 +792,6 @@
       "title": "Youtube精选",
       "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2214257545",
       "type": "weibo"
-    },
-    {
-      "title": "罗翔说刑法",
-      "mid": "517327498",
-      "type": "bilibili"
     },
     {
       "title": "越哥说电影",
