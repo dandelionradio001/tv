@@ -1,5 +1,5 @@
 {
-  "version": "1.1.2",
+  "version": "1.1.3",
   "update": {
     "version": "1.1.0",
     "message": "修复了一些问题"
@@ -7,7 +7,7 @@
   "review": 0,
   "radio_review": 0,
   "explore_review": 0,
-  "radio_state_url": 1,
+  "radio_state_url": 0,
   "review_live_flag": "TEST",
   "appLovin": {
     "open": 1,
