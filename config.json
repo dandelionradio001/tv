@@ -1,5 +1,5 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "update": {
     "version": "1.1.0",
     "message": "修复了一些问题"
@@ -51,13 +51,13 @@
   "excluded_channel_texts": ["下载安装新版"],
   "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");console.log(elements[0]);elements[0].click();",
   "hack_way_enabled": 1,
-  "home_url": "https://player.ggiptv.com/iptva.php?app=143",
+  "home_url": "https://player.ggiptv.com/iptva.php?app=145",
   "programme_url": "https://player.ggiptv.com/iptv.php",
   "base_url": "https://player.ggiptv.com/",
   "user_agent": "Mozilla/5.0 (Linux; Android [version.release]; [model] Build/[id]; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77 Mobile Safari/537.36 MicroMessengeriptv/1.4.3 VideoPlayer Html5Plus/1.00",
   "ios_user_agent": "Mozilla/5.0 (Linux; Android 10; BLA-AL00 Build/HUAWEIBLA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77 Mobile Safari/537.36 MicroMessengeriptv/1.4.3 VideoPlayer Html5Plus/1.00",
   "acceptLanguageHeader": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
-  "webView_headers": {"accept-language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7", "cookie": "version=1.4.3"},
+  "webView_headers": {"accept-language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7", "cookie": "version=1.4.5"},
   "replaced_http_enabled": 1,
   "replace_http_from": "https://",
   "replace_http_to": "http://",
