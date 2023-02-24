@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "update": {
     "version": "1.1.0",
     "message": "修复了一些问题"
@@ -10,7 +10,7 @@
   "radio_state_url": 1,
   "review_live_flag": "TEST",
   "appLovin": {
-    "open": 1,
+    "open": 0,
     "key": "moTickBwmUx6KT2Hl0mHHHVg4CqyJQiifLsQAwD3qWdvTXtTLHJm0hScoDhSXISuAQ5CCan0rCm7RBcKcMkT_C",
     "home": "5e63b6a507283fd8",
     "radio": "2fb96a7cecbea054",
