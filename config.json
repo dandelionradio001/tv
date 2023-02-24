@@ -1,5 +1,5 @@
 {
-  "version": "1.2.1",
+  "version": "1.2.2",
   "update": {
     "version": "1.2.0",
     "message": "修复了一些问题"
@@ -11,7 +11,7 @@
   "review_live_flag": "TEST",
   "backup_config_url": "http://jp.rsscc.com/config/ios/tv/tvconfig.json",
   "appLovin": {
-    "open": 0,
+    "open": 1,
     "key": "moTickBwmUx6KT2Hl0mHHHVg4CqyJQiifLsQAwD3qWdvTXtTLHJm0hScoDhSXISuAQ5CCan0rCm7RBcKcMkT_C",
     "home": "5e63b6a507283fd8",
     "radio": "2fb96a7cecbea054",
