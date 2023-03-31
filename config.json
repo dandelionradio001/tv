@@ -1,5 +1,5 @@
 {
-  "version": "1.3.9",
+  "version": "1.3.9.1",
   "update": {
     "version": "1.3.0",
     "message": "修复了一些问题"
@@ -802,7 +802,7 @@
       "title": "罗翔说刑法",
       "mid": "517327498",
       "type": "bilibili"
-    }
+    },
     {
       "title": "越哥说电影",
       "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2092751083",
