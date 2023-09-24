@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0.1",
+  "version": "1.5.0.2",
   "update": {
     "version": "1.5.0",
     "message": "修复了一些问题"
@@ -60,7 +60,7 @@
     "百事通IPTV",
     "江西移动IPTV"
   ],
-  "excluded_channel_texts": ["下载安装新版"],
+  "excluded_channel_texts": ["下载安装新版","央视频"],
   "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");console.log(elements[0]);elements[0].click();",
   "hack_way_enabled": 1,
   "home_url": "https://player.ggiptv.com/iptva.php?app=145",
