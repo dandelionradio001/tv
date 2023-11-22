@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0.1",
+  "version": "1.7.0.2",
   "update": {
     "version": "1.7.0",
     "message": "修复了一些问题"
@@ -24,7 +24,7 @@
     "openad": "2eb9255b305cef88"
   },
   "admob": {
-    "open": 0,
+    "open": 1,
     "home": "ca-app-pub-5272462489798237/5335818040",
     "radio": "ca-app-pub-5272462489798237/1663316286",
     "explore": "ca-app-pub-5272462489798237/4712985609",
