@@ -1,0 +1,58 @@
+{
+  "24freetv": {
+    "tvs": [
+      {
+        "title": "凤凰卫视中文台",
+        "href": "http://tv.haoqu99.com/4/fhzw.html",
+        "image": "http://tv.haoqu99.com/d/file/2016/0921/smallaa82904eb024279ca456acad0ffc01ce1474737314.jpg",
+        "urls": ["http://tv.haoqu99.com/4/fhzw.html"],
+        "configed_m3u8": "",
+        "live_m3u8s": [".m3u8"],
+        "live_m3u8_excluded": "http",
+        "channel_code": "凤凰中文",
+        "out_play": "https://yeslivetv.com/channels/phoenix-chinese-channel/",
+        "type": 1
+      },
+      {
+        "title": "凤凰卫视资讯",
+        "href": "http://tv.haoqu99.com/4/fhzx.html",
+        "image": "http://tv.haoqu99.com/d/file/2016/1023/3dbd7f69c75486247711623f4720885c.jpg",
+        "urls": ["http://tv.haoqu99.com/4/fhzx.html"],
+        "configed_m3u8": "",
+        "live_m3u8s": [".m3u8"],
+        "live_m3u8_excluded": "http",
+        "channel_code": "凤凰资讯",
+        "out_play": "https://yeslivetv.com/channels/phoenix-infonews-channel/",
+        "type": 1
+      },
+      {
+        "title": "凤凰香港高清",
+        "href": "http://tv.haoqu99.com/4/fhxg.html",
+        "image": "http://tv.haoqu99.com/d/file/2016/1023/6e088a50619e38d5f572909304640a63.jpg",
+        "urls": ["http://tv.haoqu99.com/4/fhxg.html"],
+        "configed_m3u8": "",
+        "live_m3u8s": [".m3u8"],
+        "live_m3u8_excluded": "http",
+        "channel_code": "凤凰香港",
+        "out_play": "https://yeslivetv.com/channels/phoenix-hong-kong-channel/",
+        "type": 1
+      },
+      {
+        "title": "TVB高清翡翠台",
+        "href": "https://www.chaojidianshi.net/zhibo/78.html",
+        "image": "http://tv.haoqu99.com/d/file/2014/0722/20140722110021346.jpg",
+        "urls": [
+          "https://www.chaojidianshi.net/zhibo/78.html"
+        ],
+        "configed_m3u8": "https://bstvcdn.ballbar.net/jade_twn/playlist-15.m3u8a?t=1701012885&token=a6c3e544f74a2b358cfb92bf24340cf9",
+        "live_m3u8s": [
+          ".m3u8a"
+        ],
+        "live_m3u8_excluded": "https",
+        "channel_code": "翡翠台",
+        "out_play": "",
+        "type": 1
+      }
+    ]
+  }
+}
