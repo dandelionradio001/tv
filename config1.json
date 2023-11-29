@@ -1,0 +1,887 @@
+{
+  "version": "2.0.0.0",
+  "update": {
+    "version": "2.0.0",
+    "message": "修复了一些问题"
+  },
+  "review": 1,
+  "radio_review": 1,
+  "explore_review": 1,
+  "radio_state_url": 1,
+  "review_live_flag": "TEST",
+  "backup_config_url": "http://jp.rsscc.com/config/ios/tv/tvconfig.json",
+  "backup_bilibili_url": "http://jp.rsscc.com/config/ios/tv/blbl.json",
+  "appLovin": {
+    "open": 0,
+    "key": "moTickBwmUx6KT2Hl0mHHHVg4CqyJQiifLsQAwD3qWdvTXtTLHJm0hScoDhSXISuAQ5CCan0rCm7RBcKcMkT_C",
+    "home": "5e63b6a507283fd8",
+    "radio": "2fb96a7cecbea054",
+    "explore": "e0d4de86dbbd404b",
+    "interstitial": "6fe1580fe1315fc5",
+    "reward": "523382bb7a572382",
+    "openad": "2eb9255b305cef88"
+  },
+  "admob": {
+    "open": 0,
+    "home": "ca-app-pub-5272462489798237/5335818040",
+    "radio": "ca-app-pub-5272462489798237/1663316286",
+    "explore": "ca-app-pub-5272462489798237/4712985609",
+    "interstitial": "ca-app-pub-5272462489798237/3587606196",
+    "reward": "ca-app-pub-5272462489798237/8269087231",
+    "openad": "ca-app-pub-5272462489798237/2289553508"
+  },
+  "movie_url": "https://dandelionradio001.github.io/tv/movie.json",
+  "tvflag": "tv",
+  "regions": [
+    {
+      "title": "北京台",
+      "id": 3
+    }
+  ],
+  "live_m3u8s": [
+    ".mu3u8",
+    ".mp4",
+    "play.php",
+    "bplayer.php",
+    "vplay.php"
+  ],
+  "live_radios": [
+    "64k.mp3"
+  ],
+  "live_radios_1": [
+    ".mp3"
+  ],
+  "include_channels": [
+    "央视",
+    "卫视",
+    "综合",
+    "极速港澳台",
+    "体育",
+    "百事通IPTV",
+    "江西移动IPTV"
+  ],
+  "excluded_channel_texts": ["下载安装新版"],
+  "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");console.log(elements[0]);elements[0].click();",
+  "hack_way_enabled": 1,
+  "home_url": "https://player.ggiptv.com/iptva.php?app=145",
+  "programme_url": "https://player.ggiptv.com/iptv.php",
+  "base_url": "https://player.ggiptv.com/",
+  "user_agent": "Mozilla/5.0 (Linux; Android [version.release]; [model] Build/[id]; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77 Mobile Safari/537.36 MicroMessengeriptv/1.4.3 VideoPlayer Html5Plus/1.00",
+  "ios_user_agent": "Mozilla/5.0 (Linux; Android 13; REA-AN00 Build/HONORREA-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.72 MQQBrowser/6.2 TBS/046269 Mobile Safari/537.36 MicroMessengeriptv/1.4.6 VideoPlayer Html5Plus/1.0",
+  "acceptLanguageHeader": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+  "webView_headers": {"accept-language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7", "cookie": "version=1.4.6;versions=1.4.6;model=REA-AN00;models=REA-AN00;"},
+  "cookie_enabled": 1,
+  "cookie_key": "models",
+  "cookie_value": "REA-AN00",
+  "replaced_http_enabled": 1,
+  "replace_http_from": "https://",
+  "replace_http_to": "http://",
+  "channel_url": "https://www.iptv222.com/",
+  "replaced_js": "function vstPlay()",
+  "find_js_from": "src:",
+  "find_js_to": ",",
+  "player_user_agent": "VideoPlayer Lavf/57.83.100 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+  "buffering_timeout": 15,
+  "reward_channels": [
+    "港澳台"
+  ],
+  "reward_channel_codes": [
+    "爱尔达体育1台",
+    "爱尔达体育2台",
+    "爱尔达体育3台"
+  ],
+  "channel_codes": {
+    "CCTV1综合高清": "cctv1",
+    "CCTV2财经高清": "cctv2",
+    "CCTV3综艺高清": "cctv3",
+    "CCTV4中文国际高清": "cctv4",
+    "CCTV5体育高清": "cctv5",
+    "CCTV5+体育赛事高清": "CCTV5+",
+    "CCTV6电影高清": "cctv6",
+    "CCTV7国防军事高清": "cctv7",
+    "CCTV8电视剧高清": "cctv8",
+    "CCTV9纪录高清": "cctvjilu",
+    "CCTV10科教高清": "cctv10",
+    "CCTV11戏曲高清": "cctv11",
+    "CCTV12社会与法高清": "cctv12",
+    "CCTV13新闻高清": "cctv13",
+    "CCTV14少儿高清": "cctv14",
+    "CCTV15音乐高清": "cctv15",
+    "CCTV16奥林匹克": "cctv16",
+    "CCTV17农业农村高清": "cctv17",
+    "CCTV4k高清": "cctv4k",
+    "CCTV4欧洲HD": "CCTV4EUO",
+    "CCTV4美洲HD": "CCTV4AME",
+    "CGTN": "CGTN",
+    "CGTN纪录": "CGTNDocumentary",
+    "CCTV央视台球": "央视台球",
+    "CCTV高尔夫网球": "高尔夫网球",
+    "CCTV文化精品": "央视精品",
+    "CETV-1高清": "中国教育1台",
+    "CETV-2": "中国教育2台",
+    "CETV-3": "中国教育3台",
+    "CETV-4": "中国教育4台",
+    "湖南卫视": "湖南卫视",
+    "湖北卫视": "湖北卫视",
+    "浙江卫视": "浙江卫视",
+    "江苏卫视": "江苏卫视",
+    "东方卫视": "东方卫视",
+    "深圳卫视": "深圳卫视",
+    "广东卫视": "广东卫视",
+    "安徽卫视": "安徽卫视",
+    "东南卫视": "东南卫视",
+    "河北卫视": "河北卫视",
+    "黑龙江卫视": "黑龙江卫视",
+    "江西卫视": "江西卫视",
+    "辽宁卫视": "辽宁卫视",
+    "海南卫视": "旅游卫视",
+    "山东卫视": "山东卫视",
+    "四川卫视": "四川卫视",
+    "天津卫视": "天津卫视",
+    "重庆卫视": "重庆卫视",
+    "贵州卫视": "贵州卫视",
+    "吉林卫视": "吉林卫视",
+    "广西卫视": "广西卫视",
+    "河南卫视": "河南卫视",
+    "甘肃卫视": "甘肃卫视",
+    "青海卫视": "青海卫视",
+    "云南卫视": "云南卫视",
+    "内蒙古卫视": "内蒙古卫视",
+    "山西卫视": "山西卫视",
+    "陕西卫视": "陕西卫视",
+    "新疆卫视": "新疆卫视",
+    "西藏卫视": "西藏卫视",
+    "宁夏卫视": "宁夏卫视",
+    "北京卫视": "北京卫视",
+    "兵团卫视": "兵团卫视",
+    "延边卫视": "延边卫视",
+    "康巴卫视": "康巴卫视",
+    "南方卫视": "南方卫视",
+    "广东珠江": "珠江频道",
+    "CCTV第一剧场": "第一剧场",
+    "CCTV风云剧场": "风云剧场",
+    "CCTV世界地理": "世界地理",
+    "CCTV怀旧剧场": "怀旧剧场",
+    "CCTV兵器科技": "兵器科技",
+    "CCTV女性时尚": "女性时尚",
+    "凤凰卫视中文台": "凤凰中文",
+    "凤凰卫视资讯台": "凤凰资讯",
+    "凤凰香港台": "凤凰香港",
+    "香港有线新闻台": "有线新闻台",
+    "有线财经资讯台": "有线财经资讯台",
+    "有线高清603台": "香港603",
+    "TVB无线新闻台": "无线新闻台",
+    "TVB无线财经资讯台": "无线财经",
+    "TVB翡翠台": "翡翠台",
+    "TVB明珠台": "明珠台",
+    "TVB J2": "J2",
+    "ViuTV": "ViuTV",
+    "香港开电视": "香港开电视",
+    "东森新闻台": "东森新闻台",
+    "东森财经新闻台": "东森财经新闻台",
+    "寰宇新闻台": "寰宇新闻",
+    "台视新闻台": "台视新闻台",
+    "中视新闻台": "中视新闻",
+    "TVBS新闻台": "TVBS新闻台",
+    "三立新闻台": "三立新闻台",
+    "民视新闻台": "民视新闻台",
+    "民视第一台": "民视第一台",
+    "民视台湾台": "民视台湾台",
+    "民视综艺台": "民视综艺台",
+    "民视": "民视",
+    "台视": "台视",
+    "中视": "中视",
+    "华视": "华视",
+    "TVBS": "TVBS HD",
+    "TVBS欢乐台": "TVBS欢乐台",
+    "纬来体育台": "纬来体育台",
+    "纬来日本台": "纬来日本台",
+    "纬来育乐台": "纬来育乐台",
+    "ELEVEN 1": "ELEVEN体育一台",
+    "ELEVEN 2": "ELEVEN体育二台",
+    "爱尔达体育1台": "爱尔达体育1",
+    "爱尔达体育2台": "爱尔达体育2",
+    "大爱一台": "大爱一台",
+    "大爱二台": "大爱二台",
+    "Discovery": "Discovery",
+    "动物星球": "动物星球",
+    "北京卡酷少儿": "卡酷动画",
+    "北京新闻": "BTV新闻",
+    "北京生活": "BTV生活",
+    "北京影视": "BTV影视",
+    "北京财经": "BTV财经",
+    "北京冬奥纪实": "北京纪实",
+    "北京青年": "BTV青年",
+    "北京科教": "BTV科教",
+    "北京文艺": "BTV文艺",
+    "广东珠江频道": "珠江频道",
+    "广东新闻": "广东新闻",
+    "广东公共": "广东公共",
+    "广东国际": "广东国际",
+    "广东房产": "广东房产",
+    "广东文化台": "广东文化台",
+    "广东经视 TVS1": "广东经视",
+    "南方卫视 TVS2": "南方卫视",
+    "广东综艺 TVS3": "广东综艺",
+    "广东影视 TVS4": "广东影视",
+    "广东少儿 TVS5": "广东少儿",
+    "嘉佳卡通": "嘉佳卡通",
+    "高尔夫频道": "高尔夫频道",
+    "广州电视综合": "广州电视综合",
+    "广州新闻": "广州新闻",
+    "广州经济": "广州经济",
+    "广州影视": "广州影视",
+    "广州生活": "广州生活",
+    "广州竞赛": "广州竞赛",
+    "广州少儿": "广州少儿",
+    "蛇口综合": "蛇口综合",
+    "深圳龙岗": "深圳龙岗",
+    "深圳东部": "深圳东部",
+    "深圳众创": "深圳众创",
+    "番禺电视": "番禺电视",
+    "东莞综合": "东莞综合",
+    "佛山综合": "佛山综合",
+    "佛山公共": "佛山公共",
+    "佛山顺德": "佛山顺德",
+    "佛山南海": "佛山南海",
+    "珠海-1": "珠海-1",
+    "珠海-2": "珠海-2",
+    "肇庆综合": "肇庆综合",
+    "肇庆公共": "肇庆公共",
+    "台山新闻": "台山新闻",
+    "汕头综合": "汕头综合",
+    "惠州-1": "惠州-1",
+    "惠州-2": "惠州-2",
+    "韶关综合": "韶关综合",
+    "梅州综合": "梅州综合",
+    "湛江综合": "湛江综合",
+    "汕尾综合": "汕尾综合",
+    "江门综合": "江门综合",
+    "云浮综合": "云浮综合",
+    "揭阳综合": "揭阳综合",
+    "河源综合": "河源综合",
+    "潮州综合": "潮州综合",
+    "福州综合": "福州综合",
+    "福州影视": "福州影视",
+    "福州生活": "福州生活",
+    "福州少儿": "福州少儿",
+    "厦门卫视": "厦门卫视",
+    "厦门一台": "厦门一台",
+    "厦门二台": "厦门二台",
+    "厦门三台": "厦门三台",
+    "龙岩综合": "龙岩综合",
+    "龙岩公共": "龙岩公共",
+    "晋江电视": "晋江电视",
+    "闽侯综合": "闽侯综合",
+    "新罗电视": "新罗电视",
+    "沙县综合": "沙县综合",
+    "石狮综合": "石狮综合",
+    "点掌财经": "点掌财经",
+    "第一财经": "第一财经",
+    "上海教育": "上海教育",
+    "上海综合": "上海综合",
+    "上海影视": "上海影视",
+    "上海纪实": "上海纪实",
+    "上海外语": "上海外语",
+    "上海都市": "上海都市",
+    "欢笑剧场": "欢笑剧场",
+    "都市剧场": "都市剧场",
+    "哈哈炫动": "哈哈炫动",
+    "动漫秀场": "动漫秀场",
+    "生活时尚": "生活时尚",
+    "浦东电视": "浦东电视",
+    "嘉定电视台": "嘉定电视台",
+    "浙江影视": "浙江影视",
+    "浙江少儿": "浙江少儿",
+    "浙江教育": "浙江教育",
+    "浙江钱江": "浙江钱江",
+    "浙江休闲": "浙江休闲",
+    "浙江经济": "浙江经济",
+    "浙江新闻": "浙江新闻",
+    "柯桥综合": "柯桥综合",
+    "柯桥时尚": "柯桥时尚",
+    "杭州综合": "杭州综合",
+    "杭州明珠": "杭州明珠",
+    "杭州生活": "杭州生活",
+    "杭州影视": "杭州影视",
+    "杭州少儿": "杭州少儿",
+    "绍兴综合": "绍兴综合",
+    "宁波1台": "宁波1台",
+    "宁波2台": "宁波2台",
+    "宁波3台": "宁波3台",
+    "湖州综合": "湖州综合",
+    "湖州公共": "湖州公共",
+    "杭州娱乐": "杭州娱乐",
+    "温州综合": "温州综合",
+    "瑞安综合": "瑞安综合",
+    "瑞安文化": "瑞安文化",
+    "舟山综合": "舟山综合",
+    "舟山公共": "舟山公共",
+    "舟山旅游": "舟山旅游",
+    "新昌综合": "新昌综合",
+    "新昌生活": "新昌生活",
+    "永嘉综合": "永嘉综合",
+    "文成综合": "文成综合",
+    "金华综合": "金华综合",
+    "余杭综合": "余杭综合",
+    "茶频道": "茶频道",
+    "快乐垂钓": "快乐垂钓",
+    "先锋乒羽": "先锋乒羽",
+    "湖南国际": "湖南国际",
+    "湖南电视剧": "湖南电视剧",
+    "金鹰卡通": "金鹰卡通",
+    "金鹰纪实": "金鹰纪实",
+    "湖南经视": "湖南经视",
+    "湖南娱乐": "湖南娱乐",
+    "湖南都市": "湖南都市",
+    "湖南公共": "湖南公共",
+    "湖南快乐购": "湖南快乐购",
+    "长沙政法": "长沙政法",
+    "长沙女性": "长沙女性",
+    "长沙新闻": "长沙新闻",
+    "山东齐鲁": "山东齐鲁",
+    "山东新闻": "山东新闻",
+    "山东生活": "山东生活",
+    "山东体育": "山东体育",
+    "济宁综合": "济宁综合",
+    "德州综合": "德州综合",
+    "德州公共": "德州公共",
+    "西部电影": "西部电影",
+    "西安综合": "西安综合",
+    "西安都市": "西安都市",
+    "西安影视": "西安影视",
+    "丝路频道": "丝路频道",
+    "安康综合": "安康综合",
+    "安康公共": "安康公共",
+    "延安综合": "延安综合",
+    "延安公共": "延安公共",
+    "汉中综合": "汉中综合",
+    "汉中公共": "汉中公共",
+    "滨海综合": "滨海综合",
+    "滨海综艺": "滨海综艺",
+    "滨海影视": "滨海影视",
+    "四川影视": "四川影视",
+    "四川新闻": "四川新闻",
+    "四川旅游": "四川旅游",
+    "四川经济": "四川经济",
+    "四川乡村": "四川乡村",
+    "四川老少": "四川老少",
+    "汶川综合": "汶川综合",
+    "绵阳综合": "绵阳综合",
+    "资阳综合": "资阳综合",
+    "成都综合": "成都综合",
+    "成都公共": "成都公共",
+    "成都影视": "成都影视",
+    "成都高新": "成都高新",
+    "南充综合": "南充综合",
+    "南充公共": "南充公共",
+    "南充科教": "南充科教",
+    "遂宁综合": "遂宁综合",
+    "遂宁公共": "遂宁公共",
+    "眉山综合": "眉山综合",
+    "眉山公共": "眉山公共",
+    "峨眉电影": "峨眉电影",
+    "第一电影": "第一电影",
+    "电影天地": "电影天地",
+    "巴中综合": "巴中综合",
+    "巴中公共": "巴中公共",
+    "阿坝综合": "阿坝综合",
+    "阿坝文艺": "阿坝文艺",
+    "达州综合": "达州综合",
+    "达州公共": "达州公共",
+    "泸州综合": "泸州综合",
+    "泸州公共": "泸州公共",
+    "泸州科教": "泸州科教",
+    "雅安综合": "雅安综合",
+    "雅安公共": "雅安公共",
+    "德阳综合": "德阳综合",
+    "德阳公共": "德阳公共",
+    "广安综合": "广安综合",
+    "广元综合": "广元综合",
+    "广汉综合": "广汉综合",
+    "东兴综合": "东兴综合",
+    "甘孜综合": "甘孜综合",
+    "营山综合": "营山综合",
+    "乐山综合": "乐山综合",
+    "乐山公共": "乐山公共",
+    "内江综合": "内江综合",
+    "内江公共": "内江公共",
+    "内江科教": "内江科教",
+    "雁江综合": "雁江综合",
+    "渝北综合": "渝北综合",
+    "永川综合": "永川综合",
+    "璧山综合": "璧山综合",
+    "开州综合": "开州综合",
+    "云南都市": "云南都市",
+    "昆明综合": "昆明综合",
+    "腾冲综合": "腾冲综合",
+    "芒市综合": "芒市综合",
+    "文山综合": "文山综合",
+    "文山公共": "文山公共",
+    "西双版纳一": "西双版纳一",
+    "西双版纳二": "西双版纳二",
+    "迪庆综合": "迪庆综合",
+    "迪庆藏语": "迪庆藏语",
+    "瑞丽综合": "瑞丽综合",
+    "红塔电视": "红塔电视",
+    "江川电视": "江川电视",
+    "陇川电视": "陇川电视",
+    "巧家综合": "巧家综合",
+    "新疆汉语综艺": "新疆汉语综艺",
+    "新疆汉语生活": "新疆汉语生活",
+    "新疆汉语法治": "新疆汉语法治",
+    "新疆汉语体育": "新疆汉语体育",
+    "新疆维语综合": "新疆维语综合",
+    "新疆维语综艺": "新疆维语综艺",
+    "新疆维语经济": "新疆维语经济",
+    "新疆哈语综合": "新疆哈语综合",
+    "新疆少儿频道": "新疆少儿频道",
+    "可克达拉综合": "可克达拉综合",
+    "石河子综合台": "石河子综合台",
+    "石河子影视台": "石河子影视台",
+    "石河子生活台": "石河子生活台",
+    "石河子教育台": "石河子教育台",
+    "奎屯哈萨克语": "奎屯哈萨克语",
+    "奎屯综合": "奎屯综合",
+    "乌苏综合": "乌苏综合",
+    "昆玉综合": "昆玉综合",
+    "内蒙古综合": "内蒙古综合",
+    "内蒙古农牧": "内蒙古农牧",
+    "内蒙古娱乐": "内蒙古娱乐",
+    "内蒙古经济": "内蒙古经济",
+    "内蒙古蒙语": "内蒙古蒙语",
+    "内蒙古少儿": "内蒙古少儿",
+    "内蒙古文化": "内蒙古文化",
+    "内蒙古足球": "内蒙古足球",
+    "鄂尔多斯综合": "鄂尔多斯综合",
+    "鄂尔多斯经济": "鄂尔多斯经济",
+    "鄂尔多斯生活": "鄂尔多斯生活",
+    "固阳综合": "固阳综合",
+    "突泉综合": "突泉综合",
+    "阿拉善综合": "阿拉善综合",
+    "阿拉善经济": "阿拉善经济",
+    "广东体育高清": "广东体育",
+    "劲爆体育": "劲爆体育",
+    "五星体育高清": "五星体育频道",
+    "新视觉HD": "新视觉",
+    "极速汽车": "MAX极速汽车",
+    "游戏风云": "游戏风云",
+    "四海钓鱼": "四海钓鱼",
+    "爱尔达体育3台": "爱尔达体育3",
+    "魅力足球": "魅力足球"
+  },
+  "sub_channel_icons_converted": {
+    "CCTV1综合": "CCTV1综合高清",
+    "CCTV2": "CCTV2财经高清",
+    "CCTV3": "CCTV3综艺高清",
+    "CCTV4": "CCTV4中文国际高清",
+    "CCTV5体育": "CCTV5体育高清",
+    "CCTV5+": "CCTV5+体育赛事高清",
+    "CCTV6": "CCTV6电影高清",
+    "CCTV7": "CCTV7国防军事高清",
+    "CCTV8": "CCTV8电视剧高清",
+    "CCTV9": "CCTV9纪录高清",
+    "CCTV10": "CCTV10科教高清",
+    "CCTV11戏曲": "CCTV11戏曲高清",
+    "CCTV12": "CCTV12社会与法高清",
+    "CCTV13": "CCTV13新闻高清",
+    "CCTV14": "CCTV14少儿高清",
+    "CCTV15": "CCTV15音乐高清",
+    "CCTV17": "CCTV17农业农村高清",
+    "凤凰卫视中文台": "凤凰卫视中文",
+    "凤凰卫视资讯台": "凤凰卫视资讯",
+    "凤凰香港台": "凤凰香港高清",
+    "湖南卫视": "湖南卫视高清",
+    "北京卫视": "北京卫视高清",
+    "东方卫视": "东方卫视高清",
+    "安徽卫视": "安徽卫视高清",
+    "湖北卫视": "湖北卫视高清",
+    "辽宁卫视": "辽宁卫视高清",
+    "黑龙江卫视": "黑龙江卫视高清",
+    "广东卫视": "广东卫视高清",
+    "江苏卫视": "江苏卫视高清",
+    "广西卫视": "广西卫视高清",
+    "四川卫视": "四川卫视高清",
+    "河南卫视": "河南卫视高清",
+    "海南卫视": "海南卫视高清",
+    "贵州卫视": "贵州卫视高清",
+    "江西卫视": "江西卫视高清",
+    "重庆卫视": "重庆卫视高清",
+    "吉林卫视": "吉林卫视高清",
+    "天津卫视": "天津卫视高清",
+    "河北卫视": "河北卫视高清",
+    "东南卫视": "东南卫视高清",
+    "浙江卫视": "浙江卫视高清",
+    "厦门卫视": "厦门卫视高清",
+    "山东卫视": "山东卫视高清",
+    "深圳卫视": "深圳卫视高清",
+    "CCTV4欧洲HD": "CCTV4中文国际欧洲",
+    "CCTV4美洲HD": "CCTV4中文国际美洲"
+  },
+  "live_nation_url": "https://ytmsout.radio.cn/web/appBroadcast/list?categoryId=0&provinceCode=0",
+  "defaultLocationId": "1",
+  "locations": [
+    {
+      "locationName": "全部地区",
+      "locationId": "0"
+    },
+    {
+      "locationName": "网络台",
+      "locationId": "1"
+    },
+    {
+      "locationName": "北京",
+      "locationId": "110000"
+    },
+    {
+      "locationName": "天津",
+      "locationId": "120000"
+    },
+    {
+      "locationName": "河北",
+      "locationId": "130000"
+    },
+    {
+      "locationName": "山西",
+      "locationId": "140000"
+    },
+    {
+      "locationName": "内蒙古",
+      "locationId": "150000"
+    },
+    {
+      "locationName": "辽宁",
+      "locationId": "210000"
+    },
+    {
+      "locationName": "吉林",
+      "locationId": "220000"
+    },
+    {
+      "locationName": "黑龙江",
+      "locationId": "230000"
+    },
+    {
+      "locationName": "上海",
+      "locationId": "310000"
+    },
+    {
+      "locationName": "江苏",
+      "locationId": "320000"
+    },
+    {
+      "locationName": "浙江",
+      "locationId": "330000"
+    },
+    {
+      "locationName": "安徽",
+      "locationId": "340000"
+    },
+    {
+      "locationName": "福建",
+      "locationId": "350000"
+    },
+    {
+      "locationName": "江西",
+      "locationId": "360000"
+    },
+    {
+      "locationName": "山东",
+      "locationId": "370000"
+    },
+    {
+      "locationName": "河南",
+      "locationId": "410000"
+    },
+    {
+      "locationName": "湖北",
+      "locationId": "420000"
+    },
+    {
+      "locationName": "湖南",
+      "locationId": "430000"
+    },
+    {
+      "locationName": "广东",
+      "locationId": "440000"
+    },
+    {
+      "locationName": "广西",
+      "locationId": "450000"
+    },
+    {
+      "locationName": "海南",
+      "locationId": "460000"
+    },
+    {
+      "locationName": "重庆",
+      "locationId": "500000"
+    },
+    {
+      "locationName": "四川",
+      "locationId": "510000"
+    },
+    {
+      "locationName": "贵州",
+      "locationId": "520000"
+    },
+    {
+      "locationName": "云南",
+      "locationId": "530000"
+    },
+    {
+      "locationName": "西藏",
+      "locationId": "540000"
+    },
+    {
+      "locationName": "陕西",
+      "locationId": "610000"
+    },
+    {
+      "locationName": "甘肃",
+      "locationId": "620000"
+    },
+    {
+      "locationName": "青海",
+      "locationId": "630000"
+    },
+    {
+      "locationName": "宁夏",
+      "locationId": "640000"
+    },
+    {
+      "locationName": "新疆",
+      "locationId": "650000"
+    }
+  ],
+  "categories": [
+    {
+      "categoryName": "全部分类",
+      "categoryId": "0"
+    },
+    {
+      "categoryName": "新闻台",
+      "categoryId": "5"
+    },
+    {
+      "categoryName": "音乐台",
+      "categoryId": "14"
+    },
+    {
+      "categoryName": "交通台",
+      "categoryId": "1"
+    },
+    {
+      "categoryName": "体育台",
+      "categoryId": "2"
+    },
+    {
+      "categoryName": "经济台",
+      "categoryId": "11"
+    },
+    {
+      "categoryName": "文艺台",
+      "categoryId": "4"
+    },
+    {
+      "categoryName": "曲艺台",
+      "categoryId": "8"
+    },
+    {
+      "categoryName": "综合台",
+      "categoryId": "12"
+    },
+    {
+      "categoryName": "方言台",
+      "categoryId": "6"
+    },
+    {
+      "categoryName": "外语台",
+      "categoryId": "3"
+    },
+    {
+      "categoryName": "生活台",
+      "categoryId": "10"
+    },
+    {
+      "categoryName": "都市台",
+      "categoryId": "13"
+    },
+    {
+      "categoryName": "旅游台",
+      "categoryId": "7"
+    },
+    {
+      "categoryName": "其他台",
+      "categoryId": "15"
+    }
+  ],
+  "explores": [
+    {
+      "title": "首页",
+      "items": [
+        {
+          "title": "编辑推荐",
+          "href": "https://10why.net/"
+        }
+      ]
+    },
+    {
+      "title": "科学世界",
+      "items": [
+        {
+          "title": "数理化篇",
+          "href": "https://10why.net/category/maths/"
+        },
+        {
+          "title": "科技篇",
+          "href": "https://10why.net/category/tech/"
+        },
+        {
+          "title": "天文篇",
+          "href": "https://10why.net/category/astronomy/"
+        },
+        {
+          "title": "地理篇",
+          "href": "https://10why.net/category/geography/"
+        }
+      ]
+    },
+    {
+      "title": "生物王国",
+      "items": [
+        {
+          "title": "人体篇",
+          "href": "https://10why.net/category/human/"
+        },
+        {
+          "title": "动物篇",
+          "href": "https://10why.net/category/animal/"
+        },
+        {
+          "title": "植物篇",
+          "href": "https://10why.net/category/plant/"
+        },
+        {
+          "title": "健康篇",
+          "href": "https://10why.net/category/healthy/"
+        }
+      ]
+    },
+    {
+      "title": "国际博览",
+      "items": [
+        {
+          "title": "交通篇",
+          "href": "https://10why.net/category/traffic/"
+        },
+        {
+          "title": "国家篇",
+          "href": "https://10why.net/category/country/"
+        },
+        {
+          "title": "军事篇",
+          "href": "https://10why.net/category/military/"
+        },
+        {
+          "title": "体育篇",
+          "href": "https://10why.net/category/sport/"
+        }
+      ]
+    },
+    {
+      "title": "人文广场",
+      "items": [
+        {
+          "title": "文化篇",
+          "href": "https://10why.net/category/culture/"
+        },
+        {
+          "title": "艺术篇",
+          "href": "https://10why.net/category/art/"
+        },
+        {
+          "title": "历史篇",
+          "href": "https://10why.net/category/history/"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "title": "喷嚏",
+      "type": "penti"
+    },
+    {
+      "title": "Youtube精选",
+      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2214257545",
+      "type": "weibo"
+    },
+    {
+      "title": "罗翔说刑法",
+      "mid": "517327498",
+      "type": "bilibili",
+      "url": "https://api.bilibili.com/x/space/wbi/arc/search?pn=[pn]&ps=[ps]&order=pubdate&keyword=&mid=[mid]&gaia_source=m_station&platform=h5&wts=[wts]",
+      "referer": "https://m.bilibili.com/space/517327498"
+    },
+    {
+      "title": "越哥说电影",
+      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2092751083",
+      "type": "weibo"
+    },
+    {
+      "title": "自然传奇",
+      "type": "nature"
+    },
+    {
+      "title": "十万个为什么",
+      "type": "why"
+    }
+  ],
+  "bilibili_pic_suffix": "@702w_394h.jpg",
+  "months": {
+    "Jan": "01",
+    "Feb": "02",
+    "Mar": "03",
+    "Apr": "04",
+    "May": "05",
+    "Jun": "06",
+    "Jul": "07",
+    "Aug": "08",
+    "Sep": "09",
+    "Oct": "10",
+    "Nov": "11",
+    "Dec": "12"
+  },
+  "excludes_items": [
+    "喷嚏优选",
+    "【喷嚏图卦"
+  ],
+  "bczexcludes": [
+    "热门视频",
+    "长阅读",
+    "本周热读",
+    "铂程斋书评",
+    "浮世绘",
+    "本月热读"
+  ],
+  "tugua_limited": 8,
+  "tuguapexcludetexts": [
+    "海外访问，请加",
+    "友情提示：请各位河蟹评论。道理你懂的",
+    "喷嚏新浪围脖：",
+    "无需App在移动设备上看喷嚏",
+    "https://item.taobao.com/item.htm",
+    "广告",
+    "喷嚏优选"
+  ],
+  "tuguaaexcludetexts": [
+    "115钻石VIP",
+    "115钻石VIP（1年价格=3年",
+    "爱奇艺半价年卡",
+    "https://item.taobao.com/item.htm"
+  ],
+  "tuguapexcludetexts_special": [
+    ">广告</span>"
+  ]
+}
