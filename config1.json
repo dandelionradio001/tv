@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0.5",
+  "version": "2.0.0.6",
   "update": {
     "version": "2.0.0",
     "message": "修复了一些问题"
@@ -10,7 +10,7 @@
   "radio_state_url": 0,
   "review_live_flag": "TEST",
   "backup_config_url": "http://jp.rsscc.com/config/ios/tv/tvconfig.json",
-  "backup_bilibili_url": "http://jp.rsscc.com/config/ios/tv/blbl.json",
+  "backup_bilibili_url": "https://dandelionradio001.github.io/tv/blbl.json",
   "appLovin": {
     "open": 0,
     "key": "moTickBwmUx6KT2Hl0mHHHVg4CqyJQiifLsQAwD3qWdvTXtTLHJm0hScoDhSXISuAQ5CCan0rCm7RBcKcMkT_C",
