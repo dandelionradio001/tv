@@ -1,13 +1,13 @@
 {
-  "version": "2.0.0.0",
+  "version": "2.0.0.1",
   "update": {
     "version": "2.0.0",
     "message": "修复了一些问题"
   },
-  "review": 1,
-  "radio_review": 1,
-  "explore_review": 1,
-  "radio_state_url": 1,
+  "review": 0,
+  "radio_review": 0,
+  "explore_review": 0,
+  "radio_state_url": 0,
   "review_live_flag": "TEST",
   "backup_config_url": "http://jp.rsscc.com/config/ios/tv/tvconfig.json",
   "backup_bilibili_url": "http://jp.rsscc.com/config/ios/tv/blbl.json",
@@ -22,7 +22,7 @@
     "openad": "2eb9255b305cef88"
   },
   "admob": {
-    "open": 0,
+    "open": 1,
     "home": "ca-app-pub-5272462489798237/5335818040",
     "radio": "ca-app-pub-5272462489798237/1663316286",
     "explore": "ca-app-pub-5272462489798237/4712985609",
