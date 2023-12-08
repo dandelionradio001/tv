@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0.6",
+  "version": "2.1.0.1",
   "update": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "message": "修复了一些问题"
   },
   "review": 0,
@@ -10,7 +10,11 @@
   "radio_state_url": 0,
   "review_live_flag": "TEST",
   "backup_config_url": "http://jp.rsscc.com/config/ios/tv/tvconfig.json",
-  "backup_bilibili_url": "https://dandelionradio001.github.io/tv/blbl.json",
+  "backup_bilibili_url": "http://jp.rsscc.com/config/ios/tv/blbl.json",
+  "tv_macHost": "http://tv.haoqu99.com/",
+  "tv_mobileHost": "http://m.haoqu99.com/",
+  "haoqu": 0,
+  "haoqu_local": 0,
   "appLovin": {
     "open": 0,
     "key": "moTickBwmUx6KT2Hl0mHHHVg4CqyJQiifLsQAwD3qWdvTXtTLHJm0hScoDhSXISuAQ5CCan0rCm7RBcKcMkT_C",
@@ -38,12 +42,20 @@
       "id": 3
     }
   ],
+  "configed_m3u8s": {
+    "浙江卫视": "http://hw-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
+    "耀才财经": "http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8"
+  },
+  "gt_js": "var options=document.getElementById('playURL').options;options[#PLAYLINEINDEX#].selected=true;startPlayer(options[#PLAYLINEINDEX#].value);",
   "live_m3u8s": [
-    ".mu3u8",
+    ".m3u8",
     ".mp4",
     "play.php",
     "bplayer.php",
     "vplay.php"
+  ],
+  "live_outplays": [
+    "outplay"
   ],
   "live_radios": [
     "64k.mp3"
@@ -63,7 +75,7 @@
   "excluded_channel_texts": ["下载安装新版"],
   "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");console.log(elements[0]);elements[0].click();",
   "hack_way_enabled": 1,
-  "home_url": "https://player.ggiptv.com/iptva.php?app=145",
+  "home_url": "https://player.ggiptv.com/iptva.php?app=146",
   "programme_url": "https://player.ggiptv.com/iptv.php",
   "base_url": "https://player.ggiptv.com/",
   "user_agent": "Mozilla/5.0 (Linux; Android [version.release]; [model] Build/[id]; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77 Mobile Safari/537.36 MicroMessengeriptv/1.4.3 VideoPlayer Html5Plus/1.00",
