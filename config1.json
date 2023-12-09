@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0.2",
+  "version": "2.1.0.3",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -10,7 +10,7 @@
   "radio_state_url": 0,
   "review_live_flag": "TEST",
   "backup_config_url": "http://jp.rsscc.com/config/ios/tv/tvconfig.json",
-  "backup_bilibili_url": "http://jp.rsscc.com/config/ios/tv/blbl.json",
+  "backup_bilibili_url": "https://dandelionradio001.github.io/tv/blbl.json",
   "tv_macHost": "http://tv.haoqu99.com/",
   "tv_mobileHost": "http://m.haoqu99.com/",
   "haoqu": 0,
