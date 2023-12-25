@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0.5",
+  "version": "2.1.0.7",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -76,7 +76,7 @@
   "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");console.log(elements[0]);elements[0].click();",
   "hack_way_enabled": 1,
   "home_url": "https://player.ggiptv.com:444/iptva.php?app=146",
-  "programme_url": "https://player.ggiptv.com/iptv.php",
+  "programme_url": "https://player.ggiptv.com:444/iptv.php",
   "base_url": "https://player.ggiptv.com/",
   "user_agent": "Mozilla/5.0 (Linux; Android [version.release]; [model] Build/[id]; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77 Mobile Safari/537.36 MicroMessengeriptv/1.4.3 VideoPlayer Html5Plus/1.00",
   "ios_user_agent": "Mozilla/5.0 (Linux; Android 13; REA-AN00 Build/HONORREA-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.72 MQQBrowser/6.2 TBS/046269 Mobile Safari/537.36 MicroMessengeriptv/1.4.6 VideoPlayer Html5Plus/1.0",
