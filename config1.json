@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0.9",
+  "version": "2.1.1.0",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -69,8 +69,7 @@
     "综合",
     "港澳台",
     "体育",
-    "百事通IPTV",
-    "江西移动IPTV"
+    "咪咕视频"
   ],
   "excluded_channel_texts": ["下载安装新版","极速港澳台"],
   "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");console.log(elements[0]);elements[0].click();",
