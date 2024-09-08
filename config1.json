@@ -1,5 +1,5 @@
 {
-  "version": "2.1.1.2",
+  "version": "2.1.1.3",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -826,6 +826,11 @@
     {
       "title": "Youtube精选",
       "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2214257545",
+      "type": "weibo"
+    },
+    {
+      "title": "李永乐老师",
+      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=3325704142",
       "type": "weibo"
     },
     {
