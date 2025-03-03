@@ -1,5 +1,5 @@
 {
-  "version": "2.1.1.4",
+  "version": "2.1.1.5",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -67,11 +67,11 @@
     "央视",
     "卫视",
     "综合",
-    "港澳台",
+    "极速港澳台",
     "体育",
     "咪咕视频"
   ],
-  "excluded_channel_texts": ["下载安装新版","极速港澳台"],
+  "excluded_channel_texts": ["下载安装新版"],
   "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");console.log(elements[0]);elements[0].click();",
   "hack_way_enabled": 1,
   "home_url": "https://player.ggiptv.com/iptva.php?app=147",
