@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>電視直播</title>
+	<meta charset="utf-8">
+	<meta name="application-name" content="網絡電視直播移動版,IPTV電視直播手机版" />
+	<meta name="title" content="電視直播" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="網絡電視,網路電視,電視直播,手机版,電視,免費電視">
+	<meta name="description" content="網絡電視,網路電視,全球電視直播,高清電視,免費電視,IPTV電視直播手机版">
+	<link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+	<script src="https://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="https://apps.bdimg.com/libs/jquerymobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+	<script>
+		function getDeviceInfo() {
+			version = plus.runtime.version;
+			model = plus.device.model;
+			vendor = plus.device.vendor;
+			deviceid = plus.device.getDeviceId;
+			plus.device.getInfo({
+				success: function(e) {
+					$.post("oaid.php", {
+						deviceid: deviceid,
+						imei: e.imei,
+						uuid: e.uuid,
+						model: model,
+						vendor: vendor,
+						version: version
+					}, function(data, status) {});
+				},
+				fail: function(e) {
+					$.post("oaid.php", {
+						deviceid: deviceid,
+						imei: e.imei,
+						uuid: e.uuid,
+						model: model,
+						vendor: vendor,
+						version: version
+					}, function(data, status) {});
+				}
+			});
+		}
+		document.addEventListener("plusready", getDeviceInfo, false);
+	</script>
+	<script>
+		document.addEventListener('touchstart', function() {
+			return false;
+		}, true);
+		// 禁止选择
+		document.oncontextmenu = function() {
+			return false;
+		};
+
+		var plusReady = function(callback) {
+			if (window.plus) {
+				callback();
+			} else {
+				document.addEventListener('plusready', callback);
+			}
+		};
+
+		plusReady(function() {
+			var firstBack = 0;
+			var handleBack = function() {
+				var currentWebview = plus.webview.currentWebview();
+				var topWebview = plus.webview.getTopWebview();
+				var now = Date.now || function() {
+					return new Date().getTime();
+				};
+				currentWebview.canBack(function(evt) {
+					if (!firstBack) {
+						firstBack = now();
+						plus.nativeUI.toast('再按一次退出应用', {
+							duration: 'short',
+							verticalAlign: 'center'
+						});
+						setTimeout(function() {
+							firstBack = 0;
+						}, 2000);
+					} else if (now() - firstBack < 2000) {
+						plus.runtime.quit();
+					}
+				});
+			};
+
+			plus.key.addEventListener('backbutton', handleBack);
+		});
+
+		var ws = null,
+			as = 'pop-in';
+		var _openw = null;
+		var ws = {
+			scrollIndicator: 'none',
+			scalable: false,
+			popGesture: 'close',
+			backButtonAutoControl: 'close',
+			titleNView: {
+				autoBackButton: true,
+				backgroundColor: '#f7f7f7',
+				titleColor: '#000',
+				titleSize: '17px',
+				statusbar: {
+					style: 'dark'
+				}
+			}
+		};
+
+		function clicked(id) {
+			if (_openw) {
+				return;
+			} // 防止快速点击
+			var ida = 'iptv.php' + id;
+			_openw = plus.webview.create(ida, 'list', ws);
+			_openw && _openw.show(as, null, function() {
+				_openw = null;
+			});
+			_openw.addEventListener('hide', function() {
+				_openw = null;
+			}, false);
+			_openw.addEventListener('close', function() {
+				_openw = null;
+			}, false);
+		}
+
+		function clickeda(id) {
+			if (_openw) {
+				return;
+			}
+			_openw = plus.webview.create(id, 'list', ws);
+			_openw && _openw.show(as, null, function() {
+				_openw = null;
+			});
+			_openw.addEventListener('hide', function() {
+				_openw = null;
+			}, false);
+			_openw.addEventListener('close', function() {
+				_openw = null;
+			}, false);
+		}
+
+		function showdupdate() {
+			var url = 'https://soft.iptv2020.com/iptv516.apk'; // 下载文件地址
+			var dtask = plus.downloader.createDownload(url, {}, function(d, status) {
+				if (status == 200) { // 下载成功  
+					var path = d.filename;
+					plus.runtime.install(path);
+				} else { //下载失败  
+					alert('Download failed: ' + status);
+				}
+			});
+			dtask.start();
+		}
+
+		function showdupdateb() {
+			plus.nativeUI.confirm('请安装新版電視直播,新版支持投屏功能', function(event) {
+				if (0 == event.index) {
+					showdupdate();
+				}
+			}, '电视直播更新', ['立即更新']);
+		}
+
+
+		function showdupdatec() {
+			var url = 'https://d.iptv200.com/soft1.php'; // 下载文件地址
+			plus.runtime.openURL(url);
+		}
+
+
+
+		function getDeviceInfob() {
+			plus.device.getInfo({
+				success: function(e) {
+					alert('getDeviceInfo success: ' + JSON.stringify(e));
+				},
+				fail: function(e) {
+					alert('getDeviceInfo failed: ' + JSON.stringify(e));
+				}
+			});
+		}
+
+
+		function downad(url) {
+			var dtask = plus.downloader.createDownload(url, {}, function(d, status) {
+				if (status == 200) { // 下载成功  
+					var path = d.filename;
+					plus.runtime.install(path);
+				} else { //下载失败  
+					alert('Download failed: ' + status);
+				}
+			});
+			dtask.start();
+		}
+	</script>
+	<script src="/update.js?t=20241115"></script>
+	<script>
+		//信息流广告
+		var adDom = null;
+		document.addEventListener('DOMContentLoaded', function() {
+			adDom = document.getElementById('ad');
+		}, false);
+
+		var adView = null;
+
+		function doCreateAd() {
+			adView = plus.ad.createAdView({
+				top: adDom.offsetTop + 'px',
+				left: '0px',
+				width: '100%',
+				height: '0px',
+				position: 'static'
+			});
+			plus.webview.currentWebview().append(adView);
+			adView.setRenderingListener(function(e) {
+				//console.log('渲染广告完成: '+JSON.stringify(e));
+				if (0 != e.result) {
+					//console.log('渲染失败！');
+				} else {
+					adView.setStyle({
+						height: e.height + 'px'
+					});
+					adDom.style.height = e.height + 'px';
+				}
+			});
+			adView.setDislikeListener(function(e) {
+				//console.log('用户关闭广告: '+JSON.stringify(e));
+				adView.close(), adView = null;
+				adDom.style.height = '0px';
+			});
+			//获取广告数据
+			plus.ad.getAds({
+				adpid: '1683648511',
+				width: '100%',
+				count: 5
+			}, function(e) {
+				//console.log('获取广告成功: '+JSON.stringify(e));
+				if (!e || !e.ads || e.ads.length < 1) {
+					//console.log('无广告数据！');
+				} else {
+					//console.log('开始渲染广告');
+					adView.renderingBind(e.ads[0]);
+				}
+			}, function(e) {
+				//console.log('获取广告失败: '+JSON.stringify(e));
+			});
+		}
+
+		document.addEventListener('plusready', doCreateAd, false);
+
+		//短视频内容联盟
+		function showContent() {
+			plus.ad.showContentPage({
+				adpid: '1957377656'
+			}, function() {
+				console.log('显示内容联盟成功!');
+			}, function(e) {
+				console.log('显示内容联盟失败：' + JSON.stringify(e));
+			});
+		}
+		//setTimeout('showContent()',2000);
+	</script>
+
+<body>
+	<div data-role="page">
+		<div id="ad" style="width:100%;">
+			<div id="ad-container" style="width: 100%;"><a onclick="clickeda('https://m.tb.cn/h.TbdW0pa');"><img src="/ad/7533370191402778604.jpg" width="100%" height="200px"></a></div>
+		</div>
+		<!--top-->
+		<div data-role="content">
+			<div align="center"><a onclick="plus.runtime.openURL('https://down.iptv333.com/down.php');">这么好的网络电视，一定要分享给朋友哦。</a></div>
+			<ul data-role="listview" data-inset="true" data-divider-theme="a">
+				<li><a onclick="clicked('?tid=gt');">港澳台</a></li>
+				<li><a onclick="clicked('?tid=ty');">体育</a></li>
+				<li><a onclick="clicked('?tid=ys');">央视</a></li>
+				<li><a onclick="clicked('?tid=ws');">卫视</a></li>
+				<li><a onclick="clicked('?tid=wintv123');">港澳台2</a></li>
+			</ul>
+		</div>
+		<!--end-->
+	</div>
+</body>
+<span style="display:none">
+	<script src="/tj.js?v=1221"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src='https://www.googletagmanager.com/gtag/js?id=G-KSS36MH2EN'></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'G-KSS36MH2EN');
+	</script>
+</span>
+
+</html>
