@@ -1,5 +1,5 @@
 {
-  "version": "2.1.1.7",
+  "version": "2.1.1.8",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -89,7 +89,7 @@
   "replace_http_from": "https://",
   "replace_http_to": "http://",
   "channel_url": "https://www.iptv222.com/",
-  "replaced_js": "function vstPlay()",
+  "replaced_js": "window.dataLayer = window.dataLayer || [];",
   "find_js_from": "src:",
   "find_js_to": ",",
   "player_user_agent": "VideoPlayer Lavf/57.83.100 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
