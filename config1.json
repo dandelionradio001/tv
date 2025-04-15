@@ -1,10 +1,10 @@
 {
-  "version": "2.1.1.9",
+  "version": "2.1.1.9.1",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
   },
-  "review": 1,
+  "review": 0,
   "radio_review": 0,
   "explore_review": 0,
   "radio_state_url": 0,
