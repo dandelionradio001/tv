@@ -1,5 +1,5 @@
 {
-  "version": "2.1.2.9.9",
+  "version": "2.1.3.9.9",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -828,21 +828,11 @@
       "type": "penti"
     },
     {
-      "title": "Youtube精选",
-      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2214257545",
-      "type": "weibo"
-    },
-    {
       "title": "罗翔说刑法",
       "mid": "517327498",
       "type": "bilibili",
       "url": "https://api.bilibili.com/x/space/wbi/arc/search?pn=[pn]&ps=[ps]&order=pubdate&keyword=&mid=[mid]&gaia_source=m_station&platform=h5&wts=[wts]",
       "referer": "https://m.bilibili.com/space/517327498"
-    },
-    {
-      "title": "越哥说电影",
-      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2092751083",
-      "type": "weibo"
     },
     {
       "title": "自然传奇",
