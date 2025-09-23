@@ -1,5 +1,5 @@
 {
-  "version": "2.1.1.9.7",
+  "version": "2.1.1.9.8",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -829,7 +829,7 @@
     },
     {
       "title": "Youtube精选",
-      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2214257545",
+      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2214257545&containerid=2315672214257545",
       "type": "weibo"
     },
     {
