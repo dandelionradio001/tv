@@ -1,5 +1,5 @@
 {
-  "version": "2.1.1.9.8",
+  "version": "2.1.1.9.9",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -841,7 +841,7 @@
     },
     {
       "title": "越哥说电影",
-      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2092751083",
+      "url": "https://m.weibo.cn/api/container/getIndex?type=uid&value=2092751083&containerid=2315672092751083",
       "type": "weibo"
     },
     {
