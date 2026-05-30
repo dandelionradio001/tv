@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0.1",
+  "version": "2.2.0.4",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -13,7 +13,7 @@
   "backup_bilibili_url": "https://dandelionradio001.github.io/tv/blbl.json",
   "tv_macHost": "http://tv.haoqu99.com/",
   "tv_mobileHost": "http://m.haoqu99.com/",
-  "haoqu": 0,
+  "haoqu": 1,
   "haoqu_local": 0,
   "appLovin": {
     "open": 0,
