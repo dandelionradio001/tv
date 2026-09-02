@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>卫视頻道列表</title>
+<meta charset="utf-8">
+<meta name="application-name" content="網絡電視直播移動版,IPTV電視直播手机版" />
+<meta name="title" content="卫视頻道列表"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="網絡電視,網路電視,電視直播,手机版,電視,免費電視">
+<meta name="description" content="網絡電視,網路電視,全球電視直播,高清電視,免費電視,IPTV電視直播手机版">
+<link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="https://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://apps.bdimg.com/libs/jquerymobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<link rel="stylesheet" href="css/iptv.css?v=123" />
+<script src="js/md5.js"></script>
+<script src="/common.js?t=20240709"></script>
+<script type="text/javascript">
+function downad(url) {
+  var dtask = plus.downloader.createDownload(url, {}, function (d,status) {
+    if ( status == 200 ) { // 下载成功  
+      var path = d.filename;
+      plus.runtime.install(path); 
+    } else { //下载失败  
+      alert( "Download failed: " + status );   
+    }    
+  });  
+  dtask.start(); 
+}
+</script>
+<style type="text/css">
+span {font-size:14px;}
+</style>
+
+</head>
+<body>
+<div data-role="page"><div id="ad" style="width:100%;"><script>
+// 广告轮播数据
+const adData = [
+    { image: "https://d.2026016.xyz/s3/tvbfc.jpg", link: "https://alwaysmulticulturallanding.com/baeg9puv5?key=0ab4b4e8b6609555bef52ee9872f8c2f" },
+    { image: "https://d.2026016.xyz/s3/inews.jpg", link: "https://omg10.com/4/11389172" },
+    { image: "https://d.2026016.xyz/s3/nowxw.jpg", link: "https://omg10.com/4/11389172" },
+    { image: "https://d.2026016.xyz/s3/hoy78.jpg", link: "https://omg10.com/4/11389172" },
+    { image: "https://d.2026016.xyz/s2/fhzx.jpg", link: "https://omg10.com/4/11389172" },
+    { image: "https://d.2026016.xyz/s2/ztxw.jpg", link: "https://omg10.com/4/11422622" },
+    { image: "https://d.2026016.xyz/s2/tvbs.jpg", link: "https://omg10.com/4/11422622" }
+];
+</script><script src="pad1.js?t=081012"></script><div id="ad-container" style="width: 100%;"></div></div>
+<!--top--><div data-role="content"><ul data-role="listview" data-inset="true" data-divider-theme="a" data-filter="true" data-filter-placeholder="搜寻"><li><a onclick="clicked('iptv.php?act=play&token=68671309de7cb9a88241394f8c902069&tid=ws&id=1');" data-ajax="false">湖南卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=55b68a69d2145a91fb6b794938f44d43&tid=ws&id=2');" data-ajax="false">江苏卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=dd1a7b24e2e6f803e7a795c5ea22ef8a&tid=ws&id=3');" data-ajax="false">浙江卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=4d66ec3dd6416ea98a9fe7b5d804ebe2&tid=ws&id=4');" data-ajax="false">东方卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=0f76ba4374e919c73d19fe351aa388d5&tid=ws&id=5');" data-ajax="false">北京卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=1359a5fe4643db4b7386ff08aa69fd35&tid=ws&id=6');" data-ajax="false">深圳卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=daad5e932e33c8c06918eadd9f8c1656&tid=ws&id=7');" data-ajax="false">广东卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=f1b40db2637eb2ca14496961d6b54094&tid=ws&id=8');" data-ajax="false">安徽卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=814a13125ebfbe1b22bd3f61894f4f35&tid=ws&id=9');" data-ajax="false">东南卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=1dfbf8b5e5934b520ef956be8a59ef2d&tid=ws&id=10');" data-ajax="false">河北卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=7172b620d50c2f0b0420b895368dcce1&tid=ws&id=11');" data-ajax="false">黑龙江卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=35e30ae9ca3500ca630150976c16b7c7&tid=ws&id=12');" data-ajax="false">湖北卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=2227db69af47e7ccefe088851bbc3e0e&tid=ws&id=13');" data-ajax="false">江西卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=9f4a31d68cfa6f825a33fab201490c1f&tid=ws&id=14');" data-ajax="false">辽宁卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=708f306e8ef3244f5c547392a327cd41&tid=ws&id=15');" data-ajax="false">海南卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=bd7c36a5bf8c774b7c36682c87954011&tid=ws&id=16');" data-ajax="false">山东卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=a54c14c15afc3dd746aa8a84446775bf&tid=ws&id=17');" data-ajax="false">四川卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=ce1aec71a202699b1108a38d9d663189&tid=ws&id=18');" data-ajax="false">天津卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=35284214a5d65193f276e682a8daaf78&tid=ws&id=19');" data-ajax="false">重庆卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=1667a2130aabb98a1db8d08dc0a87a87&tid=ws&id=20');" data-ajax="false">贵州卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=479036346a26e94f1b84ed20bfbbe4e5&tid=ws&id=21');" data-ajax="false">吉林卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=7a922546feba6028e7267d21fa81d6e9&tid=ws&id=22');" data-ajax="false">广西卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=c10770ffdea806873f51c3d0d204da26&tid=ws&id=23');" data-ajax="false">河南卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=17f667a9962726cea60e6c3216848e92&tid=ws&id=24');" data-ajax="false">甘肃卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=00a7d00c62ce380c56060a759bfd9c9b&tid=ws&id=25');" data-ajax="false">青海卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=837e4978ead16e8437f1c171d20e558b&tid=ws&id=26');" data-ajax="false">云南卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=46ff033bd85debe9a1c857daaee1d317&tid=ws&id=27');" data-ajax="false">内蒙古卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=659bec063d8d6011cf2d944f86f5c2a3&tid=ws&id=28');" data-ajax="false">山西卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=eb6cb50b3fa5fb75e2abb18a77e1a16d&tid=ws&id=29');" data-ajax="false">陕西卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=9fb404b97cbedda14682f84168b3a822&tid=ws&id=30');" data-ajax="false">兵团卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=ebe927be2dad7c980b03d3e22f6932c8&tid=ws&id=31');" data-ajax="false">新疆卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=d3ed229e3f67b0562e966d6b42c680c2&tid=ws&id=32');" data-ajax="false">西藏卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=aff0513cfbf3f84b7f3e47b1dcf3dfbf&tid=ws&id=33');" data-ajax="false">宁夏卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=e0f70337fd41e8da01a15319c8b829f8&tid=ws&id=34');" data-ajax="false">延边卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=542e4eebdad143c866eda9ecf33077ba&tid=ws&id=35');" data-ajax="false">康巴卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=cab14a9e76bbc49a1c2538ce1749dca5&tid=ws&id=36');" data-ajax="false">大湾区卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=ecc878bae9c23a910e8f7537f9199f55&tid=ws&id=37');" data-ajax="false">广东珠江频道</a></li><li><a onclick="clicked('iptv.php?act=play&token=491e30b46fa6d20a398b253de687d0c6&tid=ws&id=38');" data-ajax="false">厦门卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=7a9b4922cbd91b6d0320b64ae7e67777&tid=ws&id=39');" data-ajax="false">安多卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=d697df11be1dcc5ea6eefb67fc29b188&tid=ws&id=40');" data-ajax="false">农林卫视</a></li><li><a onclick="clicked('iptv.php?act=play&token=a67983cfa731c30ec12a3688b0e21dcc&tid=ws&id=41');" data-ajax="false">三沙卫视</a></li></ul></div>
+<!--end-->
+<div data-role="footer">
+<h4>版權聲明 &copy;1.4.7. 所有源來自互聯網搜索</h4>
+</div>
+</div>
+<script>(function(s){s.dataset.zone='11422200',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script><script data-cfasync=’false" src="https://alwaysmulticulturallanding.com/14/9a/54/149a54b3d08b2c507081e72fefeabeea.js"></script>
+</body>
+<span style="display:none">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-KSS36MH2EN'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KSS36MH2EN');
+</script>
+</span>
+</html>
