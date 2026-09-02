@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>頻道列表</title>
+  <meta charset="utf-8">
+  <meta name="application-name" content="網絡電視直播移動版,IPTV電視直播手机版" />
+  <meta name="title" content="頻道列表" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="網絡電視,網路電視,電視直播,手机版,電視,免費電視">
+  <meta name="description" content="網絡電視,網路電視,全球電視直播,高清電視,免費電視,IPTV電視直播手机版">
+  <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+  <script src="https://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://apps.bdimg.com/libs/jquerymobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+  <link rel="stylesheet" href="css/iptv.css?v=123" />
+  <script src="js/md5.js"></script>
+  <script src="/common.js?t=20240709"></script>
+  <script type="text/javascript">
+    function downad(url) {
+      var dtask = plus.downloader.createDownload(url, {}, function (d,status) {
+        if ( status == 200 ) { // 下载成功  
+          var path = d.filename;
+          plus.runtime.install(path); 
+        } else { //下载失败  
+          alert( "Download failed: " + status );   
+        }    
+      });  
+      dtask.start(); 
+    }
+  </script>
+  <style type="text/css">
+    span {font-size:14px;}
+  </style>
+</head>
+<body>
+  <div data-role="page">
+    <div id="ad" style="width:100%;">
+      <script>
+        // 广告轮播数据
+        const adData = [
+            { image: "https://d.2026016.xyz/s3/tvbfc.jpg", link: "https://alwaysmulticulturallanding.com/baeg9puv5?key=0ab4b4e8b6609555bef52ee9872f8c2f" },
+            { image: "https://d.2026016.xyz/s3/inews.jpg", link: "https://omg10.com/4/11389172" },
+            { image: "https://d.2026016.xyz/s3/nowxw.jpg", link: "https://omg10.com/4/11389172" },
+            { image: "https://d.2026016.xyz/s3/hoy78.jpg", link: "https://omg10.com/4/11389172" },
+            { image: "https://d.2026016.xyz/s2/fhzx.jpg", link: "https://omg10.com/4/11389172" },
+            { image: "https://d.2026016.xyz/s2/ztxw.jpg", link: "https://omg10.com/4/11422622" },
+            { image: "https://d.2026016.xyz/s2/tvbs.jpg", link: "https://omg10.com/4/11422622" }
+        ];
+      </script>
+      <script src="pad1.js?t=081012"></script>
+      <div id="ad-container" style="width: 100%;"></div>
+    </div>
+    <!--top-->
+    <div data-role="content">
+      <ul data-role="listview" data-inset="true" data-divider-theme="a" data-filter="true" data-filter-placeholder="搜寻">
+        <li><a onclick="clicked('iptv.php?act=play&token=1799b5598a87ab349ff30b4b10763094&tid=tv&id=1');" data-ajax="false">CCTV1综合</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=2761d393dda639ebdae67131405a9334&tid=tv&id=3');" data-ajax="false">CCTV5体育</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=d85fd46bc4990e22afa792fd31bd7ad2&tid=tv&id=5');" data-ajax="false">CCTV5+体育赛事</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=20dddcd56378367306e4be48a63df122&tid=tv&id=7');" data-ajax="false">CCTV13新闻</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=3d95ce573522a32bfba6783699304d02&tid=tv&id=9');" data-ajax="false">广东珠江频道</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=62088fabe268faef005d7680ee172ee7&tid=tv&id=11');" data-ajax="false">广东体育</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=9a6872251f9754526cf62240086b7d9c&tid=tv&id=17');" data-ajax="false">湖南卫视</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=1728e0e1ad232a2378f5cddd32b799ca&tid=tv&id=49');" data-ajax="false">中天新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=98cf8e493e00c11260721f713cea3f07&tid=tv&id=50');" data-ajax="false">东森新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=f4e0a010ecde31abfaa76e403415ed5c&tid=tv&id=51');" data-ajax="false">东森财经新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=d1da102bd74b94eae0336c00ff4d384f&tid=tv&id=52');" data-ajax="false">中视新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=40c0924f329b0b7556a2a5168231038f&tid=tv&id=53');" data-ajax="false">台视新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=ac5c952e828b157dc8438f4dcd17abc0&tid=tv&id=54');" data-ajax="false">三立新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=6f0ccd7f831cc92dcecd9c1b1064e590&tid=tv&id=56');" data-ajax="false">民视新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=4278eef27f16f747f28f93555b285c6a&tid=tv&id=57');" data-ajax="false">华视新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=991aa40496955016c9c20ade9f31e522&tid=tv&id=58');" data-ajax="false">镜电视新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=7b645813f07cdd58bd95bcc027d04399&tid=tv&id=59');" data-ajax="false">寰宇新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=3169abb27b0fbb013913809108109021&tid=tv&id=60');" data-ajax="false">寰宇新闻台湾台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=85d2ea6e709922395b7ae0fbb06c4791&tid=tv&id=62');" data-ajax="false">非凡新闻</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=2f9a1dd4d28cfa98cf0e2f8f7ac63b76&tid=tv&id=63');" data-ajax="false">TVBS新闻台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=d8ef01432ae79509109965a6dfd9c1e2&tid=tv&id=65');" data-ajax="false">TVBS HD</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=37587c94a15927887d0a4c56986da6f9&tid=tv&id=68');" data-ajax="false">中视HD</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=b4468062e1eb53ca2be8f05064144ccf&tid=tv&id=69');" data-ajax="false">台视HD</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=90c631f0008df28205bcb1c8dc6869c2&tid=tv&id=70');" data-ajax="false">民视HD</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=95d844267156482637a4eceb144568f1&tid=tv&id=71');" data-ajax="false">华视HD</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=21c3a7b8bf9605a1e28cedc8860048b7&tid=tv&id=77');" data-ajax="false">緯來體育台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=7f5ee0e421b073e9821c5150ae7759e6&tid=tv&id=78');" data-ajax="false">纬来日本台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=b4b7e89b87b7335b767a71eccd133dcd&tid=tv&id=79');" data-ajax="false">纬来育乐台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=660cc4e39f813f48e4fe25e6ea05a004&tid=tv&id=80');" data-ajax="false">DAZN 1</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=7d27bf0a58beb8f0f1daef73dafd914a&tid=tv&id=81');" data-ajax="false">DAZN 2</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=a0b82430010c46cce3020a73c29e1184&tid=tv&id=83');" data-ajax="false">爱尔达体育1台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=ed3fcbd7f980389d2b0ea4f667cc36f1&tid=tv&id=84');" data-ajax="false">爱尔达体育2台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=59b50e1136cbcb29cedb3a9fec429a73&tid=tv&id=94');" data-ajax="false">BBC新闻</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=97b04e4db44eac7d38925c9385b046fd&tid=tv&id=97');" data-ajax="false">MOMO综合台</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=0e15dee8f8561b4c2013144906ece651&tid=tv&id=98');" data-ajax="false">东森超视</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=7bb08ff542f9918645da4e0697886270&tid=tv&id=100');" data-ajax="false">茶频道</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=6cfef50b5134a4a87299b24073568fcc&tid=tv&id=102');" data-ajax="false">快乐垂钓</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=e0811e46db3ce5079dfbffd33ac9d0f0&tid=tv&id=103');" data-ajax="false">先锋乒羽</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=203d121fc0f90ab9d43158b2ee87fa0c&tid=tv&id=104');" data-ajax="false">湖南国际</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=b8410a31c72fc3d024b84ea4ec999b95&tid=tv&id=105');" data-ajax="false">湖南电视剧</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=bb2b7cc22f4883c90ff566d2889aa4c8&tid=tv&id=106');" data-ajax="false">金鹰卡通</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=2da476715a2dadb4b4b42a17073b3b79&tid=tv&id=107');" data-ajax="false">金鹰纪实</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=21873bed019fa808e21e40d842d4ea9a&tid=tv&id=108');" data-ajax="false">湖南经视</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=0585ad71bafc68181d572daf713f89c0&tid=tv&id=109');" data-ajax="false">湖南娱乐</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=4b2cf17561a54887af79ac81fab9b476&tid=tv&id=110');" data-ajax="false">湖南都市</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=5b6e4c42f7fb4ac66bdb1636d6637879&tid=tv&id=111');" data-ajax="false">湖南公共</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=26e7e3f4b4c7ea411467f37d6add79a8&tid=tv&id=112');" data-ajax="false">湖南快乐购</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=436e62dcf62d67f1ca0bc0698a30cae4&tid=tv&id=113');" data-ajax="false">长沙政法</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=fa523f96d12d8bb679825841f9d50757&tid=tv&id=114');" data-ajax="false">长沙女性</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=28a64485ad0a4ba7208ffe683f8eb962&tid=tv&id=115');" data-ajax="false">长沙新闻</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=2c15475215e9c399579f73f535d197e2&tid=tv&id=117');" data-ajax="false">广州综合</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=3fa6e86734ed9591612f1428faa16aa7&tid=tv&id=118');" data-ajax="false">广州新闻</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=f2fdc73ed7eecbee357e12dbd808fa43&tid=tv&id=119');" data-ajax="false">广州影视</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=b9861300e72443870302542749ee4297&tid=tv&id=120');" data-ajax="false">广州法治</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=3ea3efc5467e60d773ec482ee17669e8&tid=tv&id=121');" data-ajax="false">广州南国都市</a></li>
+        <li><a onclick="clicked('iptv.php?act=play&token=c4e3e0f906b3ee1caf0cf0e0c31506f0&tid=tv&id=122');" data-ajax="false">广州竞赛</a></li>
+      </ul>
+    </div>
+    <!--end-->
+    <div data-role="footer">
+      <h4>版權聲明 &copy;1.4.7. 所有源來自互聯網搜索</h4>
+    </div>
+  </div>
+  <script>
+    (function(s){s.dataset.zone='11422200',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
+  </script>
+  <script data-cfasync=’false" src="https://alwaysmulticulturallanding.com/92/55/3e/92553edbe36d3be2167ff02e7dfdc14b.js"></script>
+</body>
+<span style="display:none">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src='https://www.googletagmanager.com/gtag/js?id=G-KSS36MH2EN'></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KSS36MH2EN');
+  </script>
+</span>
+</html>
