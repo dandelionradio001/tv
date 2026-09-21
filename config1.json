@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0.0.1.2",
+  "version": "2.4.0.0.1.3",
   "update": {
     "version": "2.1.0",
     "message": "修复了一些问题"
@@ -49,7 +49,6 @@
   "gt_js": "var options=document.getElementById('playURL').options;options[#PLAYLINEINDEX#].selected=true;startPlayer(options[#PLAYLINEINDEX#].value);",
   "live_m3u8s": [
     ".m3u8",
-    ".mp4",
     "play.php",
     "bplayer.php",
     "vplay.php"
